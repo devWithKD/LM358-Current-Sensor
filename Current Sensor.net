@@ -1,0 +1,15 @@
+* G:\Electork Motors\Electronics\simulations\Current Sense Amplifier Based on LM358\Current Sensor.asc
+XU1 N006 N005 N003 0 N002 LM358_AB
+V1 N003 0 12
+V2 N001 0 48
+R1 N001 N004 100
+R2 N004 0 0.1
+R3 N005 N004 3.7k
+R4 N002 N005 10k
+R5 N006 0 3.7k
+R6 N007 N006 10k
+V3 N007 0 1.65
+.tran 100m
+.lib LM358_AB.sub
+.backanno
+.end
